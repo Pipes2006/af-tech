@@ -1,15 +1,29 @@
-﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top" role="navigation" aria-label="Menú principal">
+﻿<nav class="navbar navbar-expand-lg af-navbar sticky-top" role="navigation" aria-label="Menú principal">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Soporte AF Tech</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html" aria-label="AF Tech Inicio">
+            <img src="images/brand/af-tech-logo.svg" alt="AF Tech — Soluciones Digitales" class="af-navbar-logo" width="160" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="nosotros.html">Acerca</a></li>
-                <li class="nav-item"><a class="nav-link" href="proyectos.html">Casos</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="servicio-ia.html">Imágenes con IA para Publicidad</a></li>
+                        <li><a class="dropdown-item" href="servicio-desarrollo.html">Diseño de Páginas Web</a></li>
+                        <li><a class="dropdown-item" href="servicio-soporte.html">Soporte Técnico IT</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="proyectos.html">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                    <a class="btn btn-af-primary btn-sm px-3 py-2" href="contacto.html">Cotizar ahora</a>
+                </li>
             </ul>
         </div>
     </div>

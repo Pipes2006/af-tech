@@ -1,0 +1,4 @@
+Contact: mailto:andrelip2006@gmail.com
+Preferred-Languages: es, en
+Canonical: https://pipes2006.github.io/af-tech/.well-known/security.txt
+Expires: 2027-11-26T00:00:00.000Z
