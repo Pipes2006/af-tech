@@ -3,39 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicio Desarrollo Web | Portafolio Andrés</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Diseño y desarrollo de páginas web modernas, rápidas y responsivas adaptadas a cualquier tipo de negocio con AF Tech.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me; upgrade-insecure-requests">
+    <title>Diseño de Páginas Web para Negocios | AF Tech</title>
+    <link rel="icon" type="image/svg+xml" href="images/brand/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
+    <a class="skip-link" href="#main-content">Saltar al contenido</a>
     <div id="navbar-placeholder"></div>
 
-    <main class="py-5">
+    <header class="af-page-banner">
         <div class="container">
             <div class="row align-items-center gy-4">
-                <div class="col-lg-6 order-lg-2">
-                    <span class="section-label">Desarrollo web</span>
-                    <h1 class="section-title">Servicio de desarrollo web</h1>
-                    <p class="text-muted">Explica aquí cómo creas páginas web modernas y responsivas para portafolios, servicios y pequeñas empresas.</p>
-                    <ul class="list-group list-group-flush mb-4">
-                        <li class="list-group-item">Páginas responsivas con Bootstrap</li>
-                        <li class="list-group-item">Diseño limpio y fácil de navegar</li>
-                        <li class="list-group-item">Secciones de presentación y contacto</li>
-                        <li class="list-group-item">Implementación rápida y profesional</li>
-                    </ul>
-                    <a href="contacto.html" class="btn btn-primary btn-lg">Pedir desarrollo</a>
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
-                        <img src="images/services/desarrollo.jpg" alt="Desarrollo web" class="img-fluid">
-                    </div>
+                <div class="col-lg-8">
+                    <span class="af-pill af-pill-dark mb-3">Desarrollo &amp; Diseño Web</span>
+                    <h1 class="display-5 fw-bold mb-3">Páginas Web Modernas para Cualquier Tipo de Negocio</h1>
+                    <p class="lead mb-4">Creamos sitios profesionales, veloces y adaptables a cualquier pantalla que comunican tu propuesta de valor y facilitan que tus clientes te contacten o compren.</p>
+                    <a href="contacto.html?servicio=web" class="btn btn-af-light btn-lg">Cotizar mi sitio web</a>
                 </div>
             </div>
         </div>
+    </header>
+
+    <main id="main-content" role="main" class="flex-grow-1">
+        <section class="py-5">
+            <div class="container py-lg-3">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6">
+                        <div class="af-media-frame ratio ratio-16x9">
+                            <img src="images/services/diseno-web-moderno.jpg" alt="Ejemplo de diseño web adaptable en computador y celular por AF Tech">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="af-pill mb-3">Adaptado a tu sector</span>
+                        <h2 class="section-title">Una estructura pensada para vender en tu rubro</h2>
+                        <p class="mb-4">Cada negocio es único. Diseñamos la arquitectura, colores y llamadas a la acción según el tipo de cliente que quieres atraer.</p>
+                        <ul class="af-check-list mb-4">
+                            <li><strong>Restaurantes y Cafeterías:</strong> carta digital, reservas y pedidos directos por WhatsApp.</li>
+                            <li><strong>Tiendas y Emprendimientos:</strong> vitrina de productos, catálogo claro y botones de compra.</li>
+                            <li><strong>Clínicas, Abogados y Consultores:</strong> presencia seria, servicios detallados y agendamiento.</li>
+                            <li><strong>Inmobiliarias y Servicios Técnicos:</strong> portafolio visual, formularios filtrados y confianza digital.</li>
+                        </ul>
+                        <a href="contacto.html?servicio=web" class="btn btn-af-primary">Solicitar propuesta web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-af-slate border-top">
+            <div class="container py-lg-3">
+                <div class="text-center mx-auto mb-5 col-lg-7">
+                    <span class="af-pill mb-3">Soluciones Web</span>
+                    <h2 class="section-title">Paquetes claros según la etapa de tu negocio</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="af-card p-4 h-100 d-flex flex-column">
+                            <h3 class="h5 fw-bold mb-1">Landing Page Express</h3>
+                            <p class="small mb-3">Una página enfocada en presentar un producto o campaña y captar clientes rápido.</p>
+                            <ul class="af-check-list mb-4">
+                                <li>Diseño moderno 100% responsive</li>
+                                <li>Secciones de oferta, beneficios y contacto</li>
+                                <li>Botón directo a WhatsApp y redes</li>
+                                <li>Publicación con HTTPS seguro</li>
+                            </ul>
+                            <a href="contacto.html?servicio=web" class="btn btn-af-outline mt-auto">Cotizar Landing</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="af-card af-card-featured p-4 h-100 d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <h3 class="h5 fw-bold mb-0">Sitio Web Empresarial</h3>
+                                <span class="badge rounded-pill text-bg-primary">Más popular</span>
+                            </div>
+                            <p class="small mb-3">Web completa multi-sección para consolidar tu marca en Google y redes.</p>
+                            <ul class="af-check-list mb-4">
+                                <li>Hasta 6 páginas (Inicio, Servicios, Portafolio, Contacto...)</li>
+                                <li>Identidad visual alineada a tu logotipo</li>
+                                <li>Optimización de velocidad, SEO base y seguridad CSP/SRI</li>
+                                <li>Formulario inteligente conectado a WhatsApp</li>
+                            </ul>
+                            <a href="contacto.html?servicio=web" class="btn btn-af-primary mt-auto">Cotizar Web Empresarial</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="af-card p-4 h-100 d-flex flex-column">
+                            <h3 class="h5 fw-bold mb-1">Pack Web + Publicidad IA</h3>
+                            <p class="small mb-3">Lanzamiento total: tu sitio web nuevo acompañado de creativos publicitarios con IA.</p>
+                            <ul class="af-check-list mb-4">
+                                <li>Sitio web profesional completo</li>
+                                <li>10 imágenes comerciales generadas con IA</li>
+                                <li>Diseño de logo o refresh visual de marca</li>
+                                <li>Listo para pautar anuncios desde el día 1</li>
+                            </ul>
+                            <a href="contacto.html?servicio=paquete" class="btn btn-af-outline mt-auto">Cotizar Pack Integral</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div id="footer-placeholder"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
