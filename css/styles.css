@@ -646,13 +646,13 @@ textarea:focus-visible {
 }
 
 /* ---------------- Scroll Reveal ---------------- */
-.af-reveal {
+.af-anim .af-reveal {
     opacity: 0;
     transform: translateY(18px);
     transition: opacity 0.55s ease, transform 0.55s ease;
 }
 
-.af-reveal.is-visible {
+.af-anim .af-reveal.is-visible {
     opacity: 1;
     transform: translateY(0);
 }
