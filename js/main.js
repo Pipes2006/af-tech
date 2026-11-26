@@ -1,6 +1,7 @@
 ﻿'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
+    const ASSET_VERSION = '2026.2';
     const ALLOWED_COMPONENTS = new Set([
         'components/navbar.html',
         'components/footer.html'
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!container || !ALLOWED_COMPONENTS.has(path)) return;
 
         try {
-            const response = await fetch(path, {
+            const response = await fetch(`${path}?v=${ASSET_VERSION}`, {
                 credentials: 'same-origin',
                 cache: 'no-cache'
             });
@@ -198,12 +199,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const initScrollReveal = () => {
         const targets = document.querySelectorAll('.af-reveal');
-        if (!targets.length) return;
+        if (!targets.length || !('IntersectionObserver' in window)) return;
 
-        if (!('IntersectionObserver' in window)) {
-            targets.forEach((el) => el.classList.add('is-visible'));
-            return;
-        }
+        document.documentElement.classList.add('af-anim');
 
         const observer = new IntersectionObserver(
             (entries, obs) => {
@@ -214,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             },
-            { threshold: 0.12 }
+            { threshold: 0.08 }
         );
 
         targets.forEach((el) => observer.observe(el));
