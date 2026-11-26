@@ -6,18 +6,17 @@
       <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
     <linearGradient id="afAccentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
     </linearGradient>
   </defs>
   <!-- Emblem container -->
   <rect x="2" y="4" width="48" height="48" rx="13" fill="url(#afBlueGrad)"/>
-  <!-- Subtle tech circuit accent -->
-  <circle cx="41" cy="13" r="2.2" fill="#bae6fd" opacity="0.9"/>
+  <circle cx="41" cy="13" r="2.2" fill="#e0f2fe" opacity="0.95"/>
   <path d="M12 40 L21.5 15.5 L26.5 15.5 L21.8 28.5 L31 28.5 L29.2 33.5 L19.9 33.5 L17.4 40 Z" fill="#ffffff"/>
-  <path d="M27.5 15.5 L40 15.5 L38.4 20.3 L31.2 20.3 L29.5 25 L36.6 25 L35 29.5 L27.9 29.5 L24.2 40 L19 40 Z" fill="url(#afAccentGrad)" opacity="0.95"/>
-  <!-- Brand Wordmark -->
-  <text x="62" y="34" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.03em" fill="#0f172a">AF</text>
-  <text x="100" y="34" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.02em" fill="#2563eb">Tech</text>
-  <text x="63" y="47" font-family="'Inter', system-ui, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.18em" fill="#64748b">DIGITAL SOLUTIONS</text>
+  <path d="M27.5 15.5 L40 15.5 L38.4 20.3 L31.2 20.3 L29.5 25 L36.6 25 L35 29.5 L27.9 29.5 L24.2 40 L19 40 Z" fill="url(#afAccentGrad)"/>
+  <!-- Brand Wordmark for Dark Navy Navbar -->
+  <text x="62" y="34" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.03em" fill="#f8fafc">AF</text>
+  <text x="100" y="34" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.02em" fill="#38bdf8">Tech</text>
+  <text x="63" y="47" font-family="'Inter', system-ui, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.18em" fill="#94a3b8">DIGITAL SOLUTIONS</text>
 </svg>

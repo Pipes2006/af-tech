@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const ASSET_VERSION = '2026.2';
+    const ASSET_VERSION = '2026.3';
     const ALLOWED_COMPONENTS = new Set([
         'components/navbar.html',
         'components/footer.html'
